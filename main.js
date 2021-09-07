@@ -36,7 +36,7 @@ function my_touchMove(e) {
     ctx.lineTo(current_position_of_touch_X,current_position_of_touch_Y);
     ctx.stroke();
     Last_position_of_x = current_position_of_touch_X;
-    Last_position_of_Y = current_position_of_touch_Y;
+    Last_position_of_y = current_position_of_touch_Y;
 }
 
 canvas.addEventListener("mousedown", my_mousedown);
